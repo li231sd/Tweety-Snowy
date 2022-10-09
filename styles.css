@@ -1,0 +1,29 @@
+:root {
+  --main-background: #0b0c0f;
+  --main-fonts-color: #fff;
+  --main-decor-color: #e26868;
+  --main-header-background: #a73729;
+  --main-font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(5, 5, 5, 1);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--main-decor-color);
+  box-shadow: inset 0 0 20px var(--main-decor-color);
+}
+::-webkit-scrollbar-track {
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 100px;
+}
+
+body {
+  background-color: #ff9292;
+}
